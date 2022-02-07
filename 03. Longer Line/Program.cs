@@ -58,8 +58,7 @@ namespace _03._Longer_Line
             double y1 = line[1];
             double x2 = line[2];
             double y2 = line[3];
-            double length = 0;
-                length = FirstPoint(x1, y1) - SecondPoint(x2, y2);
+            double length = Math.Sqrt((x2-x1)+(y2-y1));
 
             return length;
         }
